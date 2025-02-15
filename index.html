@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello GitHub</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 5em;
+    }
+    #secret-button {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello Git<span id="secret-button">b</span>ub</h1>
+  <script>
+    const secretButton = document.getElementById('secret-button');
+    secretButton.addEventListener('click', () => {
+      window.open('https://github.com/gemeni-github-gem', '_blank');
+    });
+  </script>
+</body>
+</html>
